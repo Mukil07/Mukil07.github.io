@@ -140,5 +140,44 @@
       </td>
     </tr>
 
+    <tr onmouseout="Onion_stop()" onmouseover="Onion_start()"  bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/Onion.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function Onion_start() {
+            document.getElementById('Onion').style.opacity = "1";
+          }
+
+          function Onion_stop() {
+            document.getElementById('Onion').style.opacity = "0";
+          }
+          Onion_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="">
+          <span class="papertitle">Pixel Onion: Peeling Layers of Zero-Shot Object Detection in Pixelation</span>
+        </a>
+        <br>
+	<a href="https://sites.google.com/site/shankarsetty/home">Priyank Pathak *</a>,
+        <strong>Mukilan Karuppasamy*</strong>,
+        <a href="https://sites.google.com/site/shankarsetty/home"> Aaditya Baranwal</a>,
+        <a href="https://shyamnandan.netlify.app/">Shyam Marjit</a>,
+        <a href="https://cmas1.github.io/">Shruti Vyas</a>,
+        <a href="https://faculty.iiit.ac.in/~jawahar/"> Yogesh S. Rawat</a>,
+	<br>
+        <em>* equal contribution</em>,
+        <br>
+        <br>
+        <em>Under Review</em>,
+        <br>
+        <p></p>
+        <p>
+		We critically examine the SOTA Zero-Shot Object Detectors' vulnerability to resolution degradation (`pixelation'). Two key takeaways are 1) The choice of backbone alone can substantially enhance robustness, while prompting (language) plays a minimal role. 2) Robustness is also a function of the dataset/domain of images at inference. A certain type of image are not affected by pixelation.
+        </p>
+      </td>
+    </tr>
   </body>
 </html>
