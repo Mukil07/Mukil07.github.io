@@ -179,5 +179,44 @@
         </p>
       </td>
     </tr>
+
+    <tr onmouseout="Sketch_stop()" onmouseover="Sketch_start()"  bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/SketchLLM_page-0001.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function Sketch_start() {
+            document.getElementById('Sketch').style.opacity = "1";
+          }
+
+          function Sketch_stop() {
+            document.getElementById('Sketch').style.opacity = "0";
+          }
+          Sketch_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="">
+          <span class="papertitle">O3SLM: Open Weight, Open Data, and Open Vocabulary Sketch-Language Model</span>
+        </a>
+        <br>
+        
+        <a href="">Rishi Gupta</a>,
+		<strong>Mukilan Karuppasamy</strong>,
+        <a href="">Shyam Marjit</a>,
+        <a href="">Aditay Tripathi</a>,
+        <a href="">Anirban Chakraborty</a>,
+
+        <br>
+        <em>Under Review</em>
+        <br>
+        <p></p>
+        <p>
+		Proposed a large scale sketch based pretraining and visual instruction tuning dataset. Developed a state of the art Sketch based Multimodal model which can perform detection, VQA, SBIR with any crude, hand drawn sketches as the query instead of natural language. 
+        </p>
+      </td>
+    </tr>
+	
   </body>
 </html>
