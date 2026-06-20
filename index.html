@@ -59,6 +59,45 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+ <tr onmouseout="Onion_stop()" onmouseover="Onion_start()" bgcolor="#ffffd0" >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/model_size_page-0001.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function Onion_start() {
+            document.getElementById('Onion').style.opacity = "1";
+          }
+
+          function Onion_stop() {
+            document.getElementById('Onion').style.opacity = "0";
+          }
+          Onion_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="">
+          <span class="papertitle">Pixel Onion: Peeling Layers of Zero-Shot Object Detection in Pixelation</span>
+        </a>
+        <br>
+	<a href="https://ppriyank.github.io/">Priyank Pathak*</a>,
+        <strong>Mukilan Karuppasamy*</strong>,
+        <a href="https://scholar.google.com/citations?user=2pHFEhMAAAAJ&hl=en">Aaditya Baranwal</a>,
+        <a href="https://scholar.google.com/citations?user=tg4LJ94AAAAJ&hl=en">Shyam Marjit</a>,
+        <a href="https://scholar.google.com/citations?hl=en&user=15YqUQUAAAAJ">Shruti Vyas</a>,
+        <a href="https://www.cs.ucf.edu/person/yogeshrawat/"> Yogesh S. Rawat</a>,
+	<br>
+        <em>* equal contribution</em>,
+        <br>
+        <em>ECCV 2026</em>
+        <br>
+        <p></p>
+        <p>
+		We critically examine the vulnerability of SOTA Zero-Shot Object Detectors with 50 different backbones to resolution degradation (`pixelation'). Three key takeaways are 1) The choice of backbone alone can substantially enhance robustness, while prompting (language) plays a minimal role. 2) Robustness is also a function of the dataset/domain of images at inference. 3) Cross-exchange of vision features within backbone helps in improving robustness. 
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="Sketch_stop()" onmouseover="Sketch_start()" >
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -74,7 +113,7 @@
           }
           Sketch_stop()
         </script>
-      </td>
+      </td>  
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="">
           <span class="papertitle">O3SLM: Open Weight, Open Data, and Open Vocabulary Sketch-Language Model</span>
@@ -181,44 +220,7 @@
       </td>
     </tr>
 
-    <tr onmouseout="Onion_stop()" onmouseover="Onion_start()"  >
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src='images/model_size_page-0001.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function Onion_start() {
-            document.getElementById('Onion').style.opacity = "1";
-          }
 
-          function Onion_stop() {
-            document.getElementById('Onion').style.opacity = "0";
-          }
-          Onion_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="">
-          <span class="papertitle">Pixel Onion: Peeling Layers of Zero-Shot Object Detection in Pixelation</span>
-        </a>
-        <br>
-	<a href="https://ppriyank.github.io/">Priyank Pathak*</a>,
-        <strong>Mukilan Karuppasamy*</strong>,
-        <a href="https://scholar.google.com/citations?user=2pHFEhMAAAAJ&hl=en">Aaditya Baranwal</a>,
-        <a href="https://scholar.google.com/citations?user=tg4LJ94AAAAJ&hl=en">Shyam Marjit</a>,
-        <a href="https://scholar.google.com/citations?hl=en&user=15YqUQUAAAAJ">Shruti Vyas</a>,
-        <a href="https://www.cs.ucf.edu/person/yogeshrawat/"> Yogesh S. Rawat</a>,
-	<br>
-        <em>* equal contribution</em>,
-        <br>
-        <em>Under Review</em>
-        <br>
-        <p></p>
-        <p>
-		We critically examine the vulnerability of SOTA Zero-Shot Object Detectors with 50 different backbones to resolution degradation (`pixelation'). Two key takeaways are 1) The choice of backbone alone can substantially enhance robustness, while prompting (language) plays a minimal role. 2) Robustness is also a function of the dataset/domain of images at inference. A certain type of image are not affected by pixelation.
-        </p>
-      </td>
-    </tr>
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	  <tr>
